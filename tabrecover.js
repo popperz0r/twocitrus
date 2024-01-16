@@ -1,7 +1,7 @@
 window.onload = function() {
 
   var originalTitle = document.title;
-  var attentionMessage = String.fromCodePoint(0x1F514)+' Do not forget!';
+  var attentionMessage = String.fromCodePoint(0x1F514)+' Do not forget !!';
   var blinkEvent = null;
 
   document.addEventListener('visibilitychange', function(e) {
